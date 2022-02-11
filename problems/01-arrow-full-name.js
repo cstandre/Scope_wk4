@@ -1,6 +1,6 @@
 /***********************************************************************
 Write a function using fat arrow syntax, `arrowGetFullName(person)` that takes in
-a person object and returns a string containing their full name. 
+a person object and returns a string containing their full name.
 
 Assign the below function to a variable using the const keyword. Using the const
 keyword will allow any value assigned to that variable protection from being
@@ -14,7 +14,21 @@ arrowGetFullName(p2); // => 'Charlie Brown'
 
 ***********************************************************************/
 
-// your code here!
+const arrowGetFullName = person => {
+  let values = person[key]
+  for (const key in person) {
+
+      }
+    return values
+}
+
+let p1 = {firstName: 'John', lastName: 'Doe'};
+arrowGetFullName(p1); // => 'John Doe'
+let p2 = {firstName: 'Charlie', lastName: 'Brown', age: 9};
+arrowGetFullName(p2); // => 'Charlie Brown'
+
+console.log(p1)
+console.log(p2)
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
