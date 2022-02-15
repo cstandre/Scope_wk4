@@ -45,7 +45,6 @@ const countDownTimer = n => {
 
   let func = () => {
     n --
-    console.log(n)
 
     if (n === 0) {
       return "Happy New Year!";
